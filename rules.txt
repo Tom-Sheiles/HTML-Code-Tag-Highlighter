@@ -1,0 +1,8 @@
+Comment: /\*[^*]*\*+(?:[^/*][^*]*\*+)*/
+Comment: //.*
+Function: ([a-zA-Z]+_*[0-9]*[a-zA-Z]*)(\(.*\))
+String: ".*"
+Keyword: \b(NULL|alignas|alignof|auto|bool|break|case|char|const|constexpr|continue|default|do|double|else|enum|extern|false|float|for|goto|if|inline|int|long|nullptr|register|restruct|return|short|singed|sizeof|static|static_assert|struct|switch|thread_local|true|typedef|typeof|typeof_unqual|union|unsigned|void|volatile|while)\b
+Number: [0-9]+e?[0-9]*
+Include: &lt;.*&gt;
+Operator: (\+|-|\*|/|&lt;|&gt;|include|define)

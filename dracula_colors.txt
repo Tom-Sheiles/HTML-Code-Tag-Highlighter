@@ -1,0 +1,7 @@
+String: #F1FA8C
+Comment: #6272A4
+Keyword: #FF79C6
+Number: #BD93F9
+Include: #F1FA8C
+Operator: #FF79C6
+Function: #50FA7B
